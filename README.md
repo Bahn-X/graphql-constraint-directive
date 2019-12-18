@@ -1,4 +1,4 @@
-# graphql-constraint-directive
+# @bahn-x/graphql-constraint-directive
 
 [![Build Status](https://api.travis-ci.org/confuser/graphql-constraint-directive.svg?branch=master)](https://travis-ci.org/confuser/graphql-constraint-directive)
 [![Coverage Status](https://coveralls.io/repos/github/confuser/graphql-constraint-directive/badge.svg?branch=master)](https://coveralls.io/github/confuser/graphql-constraint-directive?branch=master)
@@ -7,13 +7,16 @@
 Allows using @constraint as a directive to validate input data. Inspired by [Constraints Directives RFC](https://github.com/APIs-guru/graphql-constraints-spec) and OpenAPI
 
 ## Install
+
+[Configure your npm with access to our private registry](https://github.com/Bahn-X/devops/blob/1572a4639a64f49e7bc7966d5cc8519020fa483b/docs/npm-deps-via-private-registry.md#using-our-private-npm-registry-locally) first.
+
 ```
-npm install graphql-constraint-directive
+npm install @bahn-x/graphql-constraint-directive
 ```
 
 ## Usage
 ```js
-const ConstraintDirective = require('graphql-constraint-directive')
+const ConstraintDirective = require('@bahn-x/graphql-constraint-directive')
 const express = require('express')
 const bodyParser = require('body-parser')
 const { graphqlExpress } = require('apollo-server-express')
