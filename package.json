@@ -1,6 +1,6 @@
 {
   "name": "@bahn-x/graphql-constraint-directive",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "Validate GraphQL fields",
   "main": "index.js",
   "scripts": {
@@ -11,13 +11,6 @@
   "license": "ISC",
   "engines": {
     "node": ">=8.0.0"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git@github.com:confuser/graphql-constraint-directive.git"
-  },
-  "bugs": {
-    "url": "https://github.com/confuser/graphql-constraint-directive/issues"
   },
   "keywords": [
     "graphql",
